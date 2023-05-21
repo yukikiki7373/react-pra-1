@@ -1,9 +1,12 @@
+// import Name from "./name";
+// import Discription from "./discription";
+import {Name, Discription} from './index.js';
 
 const Hello = (props) =>{
     return(
         <div>
-            <h2>{props.hello}</h2>
-            <p>{props.content}</p>
+            <Name name = {props.name} />
+            <Discription discription = {props.discription} />
         </div>
     )
 };

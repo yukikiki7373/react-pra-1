@@ -5,8 +5,8 @@ import Hello from './components/Hello';
 function App() {
   return (
     <Hello 
-      hello = {'hello world'}
-      content = {'nice to meet you! React'}
+      name = {'toni-toni-chopper'}
+      discription = {'i am a doctor. i love cotton candy'}
     />
   );
 }
