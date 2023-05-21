@@ -4,7 +4,10 @@ import Hello from './components/Hello';
 
 function App() {
   return (
-    <Hello />
+    <Hello 
+      hello = {'hello world'}
+      content = {'nice to meet you! React'}
+    />
   );
 }
 

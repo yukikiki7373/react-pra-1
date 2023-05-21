@@ -1,8 +1,9 @@
+
 const Hello = (props) =>{
     return(
         <div>
-            <h2>Hello React</h2>
-            <p>this is my first time to use component</p>
+            <h2>{props.hello}</h2>
+            <p>{props.content}</p>
         </div>
     )
 };
